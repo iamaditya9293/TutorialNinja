@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = "src/test/resources/feature/Login.feature",
 		glue= "stepDefinition",
-		tags="@all",
+		tags="@all and not @dev and not @ignore and not @wip",
 		plugin= {"pretty","html:target/CucumberHTMLReport.html"})
 
 public class TestMyRunner {

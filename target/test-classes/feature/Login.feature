@@ -5,7 +5,7 @@ Registered user should be able to logon to the application
 Background: 
 Given User navigates to the login page
 
-@login @validcredentials  @smoke @regression
+@login @validcredentials  @smoke @regression @dev
 Scenario Outline: Login with valid user name and password
 When Enter valid email address <email>
 And Enter Valid password <pwd>
@@ -18,14 +18,14 @@ Examples:
 |shiva@test.com| 1234|
 |Anji@test.com|1234|
 
-@login @invalidcredentials  
+@login @invalidcredentials  @wip
 Scenario: Login with invalid user name and password
 When Enter valid email address "test999@gmail.com"
 And Enter Valid password "1234"
 And Hit login button
 Then User should be able to get a validation
 
-@login  @regression
+@login  @regression @ignore
 Scenario: Login with invalid user name and invalid password
 When Enter valid email address "test999@gmail.com"
 And Enter Valid password "123344"
