@@ -11,7 +11,7 @@ public class TestLogin {
 		}
 
 		@When("^Enter valid email address (.+)$")
-		public void enter_valid_email_address(String email) {
+		public void enter_valid_email_address_valid_email(String email) {
 			System.out.println(">>Two"+ email);
 		}
 
