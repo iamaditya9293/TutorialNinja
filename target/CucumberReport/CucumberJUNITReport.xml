@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.323" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-29T18:09:34.227227400Z">
+<testcase classname="User Login" name="Login with valid user name and password - #1.1" time="0.027">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address aditya@test.com..............................passed
+And Enter Valid password 1234...............................................passed
+And Hit login button........................................................passed
+Then User logged on to the home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid user name and password - #1.2" time="0.004">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address mouli@test.com...............................passed
+And Enter Valid password 1234...............................................passed
+And Hit login button........................................................passed
+Then User logged on to the home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid user name and password - #1.3" time="0.001">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address shiva@test.com...............................passed
+And Enter Valid password 1234...............................................passed
+And Hit login button........................................................passed
+Then User logged on to the home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid user name and password - #1.4" time="0.01">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address Anji@test.com................................passed
+And Enter Valid password 1234...............................................passed
+And Hit login button........................................................passed
+Then User logged on to the home page........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid user name and password" time="0.005">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address "test999@gmail.com"..........................passed
+And Enter Valid password "1234".............................................passed
+And Hit login button........................................................passed
+Then User should be able to get a validation................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid user name and invalid password" time="0.005">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address "test999@gmail.com"..........................passed
+And Enter Valid password "123344"...........................................passed
+And Hit login button........................................................passed
+Then User should be able to get a validation................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid user name and invalid password" time="0.004">
+<system-out><![CDATA[
+Given User navigates to the login page......................................passed
+When Enter valid email address "test999@gmail.com"..........................passed
+And Enter Valid password "1239898984".......................................passed
+And Hit login button........................................................passed
+Then User should be able to get a validation................................passed
+]]></system-out>
+</testcase>
+</testsuite>

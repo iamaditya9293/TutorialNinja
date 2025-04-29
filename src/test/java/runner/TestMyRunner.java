@@ -10,7 +10,11 @@ import io.cucumber.junit.CucumberOptions;
 		features = "src/test/resources/feature/Login.feature",
 		glue= "stepDefinition",
 		tags="@all",
-		plugin= {"pretty","html:target/CucumberHTMLReport.html"})
+		plugin= {"pretty",
+				"html:target/CucumberReports/CucumberHTMLReport.html",
+				"json:target/CucumberReport/CucumberJSONReport.json",
+				"junit:target/CucumberReport/CucumberJUNITReport.xml"
+		})
 
 public class TestMyRunner {
 

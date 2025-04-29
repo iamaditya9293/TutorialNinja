@@ -1,0 +1,5 @@
+hooks\MyHooks.class
+stepDefinition\TestLogin.class
+stepDefinition\TestSearch.class
+runner\TestMyRunner.class
+stepDefinition\TestRegister.class
