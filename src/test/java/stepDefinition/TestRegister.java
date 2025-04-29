@@ -4,7 +4,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
 
-public class Register {
+public class TestRegister {
 	
 	@Before(order=0,value="search")
 	public void stepOne() {

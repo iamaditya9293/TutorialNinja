@@ -2,7 +2,7 @@ package stepDefinition;
 
 import io.cucumber.java.en.*;
 
-public class Login {
+public class TestLogin {
 
 		
 		@Given("User navigates to the login page")

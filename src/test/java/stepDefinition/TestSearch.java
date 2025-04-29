@@ -4,7 +4,7 @@ package stepDefinition;
 import io.cucumber.java.*;
 import io.cucumber.java.en.*;
 
-public class Search {
+public class TestSearch {
 
 	@BeforeStep("@search")
 	public void beforeEveryStep() {
