@@ -8,8 +8,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		
 		features = "src/test/resources/feature/Login.feature",
-		glue= "stepDefinition",
+		glue= {"stepDefinition","hooks"},
 		tags="@all",
+		dryRun=false, // TO check all the steps are implemented as step definitions or not
 		plugin= {"pretty",
 				"html:target/CucumberReports/CucumberHTMLReport.html",
 				"json:target/CucumberReport/CucumberJSONReport.json",

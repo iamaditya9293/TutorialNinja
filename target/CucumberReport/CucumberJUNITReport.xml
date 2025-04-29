@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.323" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-29T18:09:34.227227400Z">
-<testcase classname="User Login" name="Login with valid user name and password - #1.1" time="0.027">
+<testsuite name="Cucumber" time="0.318" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-29T18:23:26.281449700Z">
+<testcase classname="User Login" name="Login with valid user name and password - #1.1" time="0.028">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address aditya@test.com..............................passed
@@ -9,7 +9,7 @@ And Hit login button........................................................pass
 Then User logged on to the home page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login" name="Login with valid user name and password - #1.2" time="0.004">
+<testcase classname="User Login" name="Login with valid user name and password - #1.2" time="0.003">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address mouli@test.com...............................passed
@@ -18,7 +18,7 @@ And Hit login button........................................................pass
 Then User logged on to the home page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login" name="Login with valid user name and password - #1.3" time="0.001">
+<testcase classname="User Login" name="Login with valid user name and password - #1.3" time="0.006">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address shiva@test.com...............................passed
@@ -27,7 +27,7 @@ And Hit login button........................................................pass
 Then User logged on to the home page........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login" name="Login with valid user name and password - #1.4" time="0.01">
+<testcase classname="User Login" name="Login with valid user name and password - #1.4" time="0.008">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address Anji@test.com................................passed
@@ -45,7 +45,7 @@ And Hit login button........................................................pass
 Then User should be able to get a validation................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login" name="Login with invalid user name and invalid password" time="0.005">
+<testcase classname="User Login" name="Login with invalid user name and invalid password" time="0.004">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address "test999@gmail.com"..........................passed
@@ -54,7 +54,7 @@ And Hit login button........................................................pass
 Then User should be able to get a validation................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User Login" name="Login with valid user name and invalid password" time="0.004">
+<testcase classname="User Login" name="Login with valid user name and invalid password" time="0.002">
 <system-out><![CDATA[
 Given User navigates to the login page......................................passed
 When Enter valid email address "test999@gmail.com"..........................passed
