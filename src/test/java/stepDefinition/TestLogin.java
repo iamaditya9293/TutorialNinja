@@ -16,7 +16,7 @@ public class TestLogin {
 		}
 
 		@When("^Enter Valid password (.+)$")
-		public void enter_valid_password(String pwd) {
+		public void enter_valid_password_again(String pwd) {
 			System.out.println(">>Three"+ pwd);
 
 		}
