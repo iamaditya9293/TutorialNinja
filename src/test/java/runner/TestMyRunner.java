@@ -11,6 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue= {"stepDefinition","hooks"},
 		tags="@all",
 		dryRun=false, // TO check all the steps are implemented as step definitions or not
+		publish =true,
 		plugin= {"pretty",
 				"html:target/CucumberReports/CucumberHTMLReport.html",
 				"json:target/CucumberReport/CucumberJSONReport.json",
